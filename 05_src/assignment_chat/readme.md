@@ -22,7 +22,7 @@ The system integrates with WeatherAPI.com to pull real-time meteorological and a
 Service 2: Semantic Query & Vector Database (ChromaDB)
 The application utilizes a local, persistent ChromaDB instance to handle semantic search. A lightweight dataset consisting of Canadian city facts is embedded using OpenAI's text-embedding-3-small model. This allows users to query the database using conceptual questions (e.g., "Which city is best for biking?"), which the system mathematically matches to the most relevant hardcoded fact.
 
-### Service 3: Your Choice
+### Service 3: Function Calling)
 
 Service 3: Intelligent Router (Function Calling)
 Serving as the "brain" of the application, Service 3 uses OpenAI's Function Calling capabilities. The LLM is provided with a toolkit defining the Weather API and ChromaDB functions. It analyzes the user's intent and automatically routes the query to the correct external script, processes the returned data, and generates a unified response.
