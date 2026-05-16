@@ -1,3 +1,4 @@
+<img width="2548" height="1401" alt="1  AI Weather Chatbot Main Screen" src="https://github.com/user-attachments/assets/014d2267-952c-456c-9b6b-ff5f5f9c4e44" />
 # Assignment 2
 
 The goal of this assignment is to design and implement an AI system with a conversational interface.
